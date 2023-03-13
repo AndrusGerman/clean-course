@@ -43,7 +43,7 @@
     const lastName = 'Herrera';
 
     // días desde la última modificación - days since modification
-    const daysSinceModification = 12;
+    const daysSinceLastModification = 12;
     
     // cantidad máxima de clases por estudiante - max classes per student
     const MaxClassesPerStudent = 6;
