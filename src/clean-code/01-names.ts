@@ -48,5 +48,21 @@
     // cantidad máxima de clases por estudiante - max classes per student
     const MaxClassesPerStudent = 6;
 
+    // mal 
+    //const fruit = ['apple']
+    // Bien
+    const fruitsNames = ['manzana','apple','pera']
+
+
+    // mal
+    const write = true;
+    const notEmpty = true;
+    const fruit = true;
+    const notValues = true;
+    //bien 
+    const canWrite = true;
+    const isEmpty = true;
+    const hasFruit = true;
+    const hasValues = true;
 
 })();
