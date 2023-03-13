@@ -77,4 +77,16 @@
         const totalFruits = 10;
         const totalOfCars = 10;
     }
+
+    {
+        //bad
+        const createUserIfNotExistex = () =>{}
+        const updateUserIfNotEmpty = () =>{}
+        const sendEmailIfFieldsValid = () =>{};
+
+        //good
+        const createUser = ()=>{};
+        const updateUser = ()=>{};
+        const sendEmail = ()=>{};
+    }
 })();
