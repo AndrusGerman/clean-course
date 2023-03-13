@@ -54,7 +54,7 @@
     const fruitsNames = ['manzana','apple','pera']
 
 
-    // mal
+   { // mal
     const write = true;
     const notEmpty = true;
     const fruit = true;
@@ -63,6 +63,18 @@
     const canWrite = true;
     const isEmpty = true;
     const hasFruit = true;
-    const hasValues = true;
+    const hasValues = true;}
 
+
+    {
+        //bad
+        const fruits =10
+        const cars = 10;
+
+        //good
+        const maxFruits = 10;
+        const minFruits = 10
+        const totalFruits = 10;
+        const totalOfCars = 10;
+    }
 })();
