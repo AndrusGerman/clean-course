@@ -19,10 +19,6 @@
     removeValue() {}
   }
 
-  //? Idea para la nueva clase InputElement
-
-  //const nameField = new InputEvents('Fernando', 'Enter first name', 'txtName');
-
   interface InputElementProps {
     id: string;
     value: string;
@@ -40,6 +36,10 @@
     }
   }
 
-  const nameField = new InputElement({id:'txName',placeholder:'Enter first name',value:'Fernando'});
+  const nameField = new InputElement({
+    id: "txName",
+    placeholder: "Enter first name",
+    value: "Fernando",
+  });
   console.log({ nameField });
 })();
